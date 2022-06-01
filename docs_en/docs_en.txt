@@ -1,0 +1,15 @@
+- Creation
+- Del method
+- Print method
+
+ Creation
+To create it, you need to connect the file header using the directive: #include <main.h> (you must first create it)
+For creation and further use, we write: h a = 10; h accepts only an integer(int)
+
+ Del method
+To delete a variable/object, you must use the del() method, the program after this method may not work correctly
+
+ Print method
+Used to output the value to the console
+
+by lofinaf
