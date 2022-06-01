@@ -7,22 +7,16 @@ using namespace std;
 class h
 {
 
+	friend void hroots()
+	{
+
+	}
+
 	public:
-		let(int i)
+		h(int i)
 		{
+
 			value = i;
-		}
-		void print()
-		{
-			if (value == NULL)
-			{
-				cout << "Error! Error code 01" << endl;
-			}
-			else
-			{
-				cout << value << endl;
-			}
-			
 		}
 		void del()
 		{
@@ -30,6 +24,19 @@ class h
 		}
 	private:
 		int value;
+
+		void print()
+		{
+			if (value == NULL)
+			{
+				cout << "Error! h not can value null" << endl;
+			}
+			else
+			{
+				cout << value << endl;
+			}
+
+		}
 
 };
 
